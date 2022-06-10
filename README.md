@@ -1,4 +1,4 @@
-# PG6301 eksamen <tittel på løsningen>
+# PG6301 eksamen 
 
 Use this link to se what the code dose: [Heroku](https://cooljean95-exam.herokuapp.com/)
 
