@@ -1,0 +1,41 @@
+{
+  "name": "pgr6301-exam-Cooljean95",
+  "version": "1.0.0",
+  "description": "[Heroku](link til heroku)\r [Test rapport](link til testrapport)",
+  "main": "index.js",
+  "scripts": {
+    "dev": "concurrently npm:dev:client npm:dev:server",
+    "dev:client": "cd client && npm run dev",
+    "dev:server": "cd server && npm run dev",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "cd client && npm run build",
+    "build:server": "cd server && npm run build",
+    "start": "cd server && npm start",
+    "prepare": "husky install",
+    "pre-commit": "npm run prettier:check",
+    "prettier:check": "prettier --check **/*.{jsx,js,tx,tsx}",
+    "format": "prettier --write **/*.{js,jsx,jts,tsx}",
+    "test": "npm run test:client && npm run test:server",
+    "test:client": "cd client && npm run test",
+    "test:server": "cd server && npm run test",
+    "postinstall": "npm run install:client && npm run install:server",
+    "install:client": "cd client && npm install --include=dev",
+    "install:server": "cd server && npm install"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristiania-pg6301-2022/pgr6301-exam-Cooljean95.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristiania-pg6301-2022/pgr6301-exam-Cooljean95/issues"
+  },
+  "homepage": "https://github.com/kristiania-pg6301-2022/pgr6301-exam-Cooljean95#readme",
+  "devDependencies": {
+    "concurrently": "^7.1.0",
+    "husky": "^7.0.4",
+    "prettier": "^2.6.2"
+  }
+}

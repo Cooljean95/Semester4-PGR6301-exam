@@ -1,0 +1,101 @@
+
+body{
+    margin: 10px;
+}
+
+.frontPage3 header{
+    display: grid;
+    padding-top: 1em;
+    padding-left: 2em;
+    grid-template-columns: 6% 6% 70% 10%;
+}
+
+.frontPage3 main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.frontPage3 header button{
+    float: right;
+    background-color: #b0e2ea;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Arial Nova";
+    color: white;
+    border-radius: 20px;
+    border-line: none;
+    border: none;
+}
+
+.frontPage3 header h3 {
+    text-align: right;
+}
+
+.frontPage2 header{
+    display: grid;
+    padding-top: 1em;
+    padding-left: 2em;
+    grid-template-columns: 60%  20% 10%;
+}
+
+.frontPage2 main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.frontPage2 header button{
+    float: right;
+    background-color: #b0e2ea;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Arial Nova";
+    color: white;
+    border-radius: 20px;
+    border-line: none;
+    border: none;
+
+}
+
+.frontPage2 header h3 {
+    text-align: right;
+}
+
+.frontPage header{
+    display: grid;
+    padding-top: 1em;
+    padding-left: 1em;
+    grid-template-columns: 6% 6% 6% 6% 55% 15%;
+}
+
+ .frontPage header button{
+   float: right;
+    background-color: #b0e2ea;
+    width: 100px;
+    height: 50px;
+    font-size: 20px;
+    font-family: "Arial Nova";
+    color: white;
+    border-radius: 20px;
+    border-line: none;
+    border: none;
+
+}
+
+.frontPage header h3 {
+    text-align: right;
+}
+
+.frontPage main{
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+.mainDiv{
+    background-color: grey;
+    height: 38vw;
+}
+.mainDivTwo{
+    background-color: lightgray;
+}

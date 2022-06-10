@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add User shows input 1`] = `"<h1>Log inn</h1><div><form><p><label>Username:<input value=\\"\\"></label></p><p><label>Password:<input value=\\"\\"></label></p><button>Log inn/Guest</button></form></div><div><ul><li><a href=\\"/loginApi\\">Google login</a></li></ul></div>"`;
+
+exports[`add User shows options 1`] = `"<h1>Log inn</h1><div><form><p><label>Username:<input value=\\"\\"></label></p><p><label>Password:<input value=\\"\\"></label></p><button>Log inn/Guest</button></form></div><div><ul><li><a href=\\"/loginApi\\">Google login</a></li></ul></div>"`;
+
+exports[`test for login shows input 1`] = `"<h1>Log inn</h1><div><form><p><label>Username:<input value=\\"\\"></label></p><p><label>Password:<input value=\\"\\"></label></p><button>Log inn/Guest</button></form></div><div><ul><li><a href=\\"/loginApi\\">Google login</a></li></ul></div>"`;

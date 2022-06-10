@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Frontpage test shows input 1`] = `"<div class=\\"frontPage2\\"><header><div><a href=\\"/news\\">News</a></div><div><button>Log out</button></div><div><h3>welcome: Guest</h3></div></header><main><div class=\\"mainDiv\\"><h1>News articles</h1></div><div class=\\"mainDivTwo\\"><h1>Articles</h1><div><strong></strong><h1></h1><h3></h3><p></p></div></div></main></div>"`;

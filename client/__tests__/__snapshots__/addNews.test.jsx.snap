@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`add News component shows options 1`] = `"<div><h1>Add new movie</h1><div><a href=\\"/frontPage\\">Frontpage</a></div><form><label>Category:<select required=\\"\\"><option>Weather</option><option>Sport</option><option>Food</option><option>War</option><option>Crimes</option></select><label>Title:<input required=\\"\\" value=\\"\\"></label></label><label>Text:<textarea required=\\"\\"></textarea></label><button>Add movie</button></form></div>"`;
