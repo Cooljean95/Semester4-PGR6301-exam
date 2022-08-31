@@ -1,5 +1,7 @@
 # PG6301 eksamen 
 
+Karakter: B
+
 Use this link to se what the code dose: [Heroku](https://cooljean95-exam.herokuapp.com/)
 
 
